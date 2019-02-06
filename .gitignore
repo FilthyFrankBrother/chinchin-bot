@@ -1,0 +1,4 @@
+/env
+/images
+src/localsettings.py
+src/__pycache__
