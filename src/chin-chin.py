@@ -20,7 +20,7 @@ class MyClient(discord.Client):
 
         channel = message.channel
         
-        if message.content.startswith('+'):
+        if '+' in message.content:
             f = discord.File('../images/CHIN_CHIN_IS_NOT_PLEASED_fix.webp')
             await channel.send('\'Chu say {.name}?, fite me BITCH'.format(message.author),
                                file=f)
